@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title> sea beach </title>
+	<link rel="stylesheet" href=" style.css">
+</head>
+<body>
+	<section class= "showcase ">
+
+		<header id="header" class="">
+			<h2 class="logo"> Travel </h2>
+			<div class="toggle "> </div>
+		</header><!-- /header -->
+		<video src="video.mp4" muted loop autoplay> </video>
+		<div class="overlay"></div>
+		<div class="text">
+			<h2> Sea beach </h2>
+			<h3> one of the most beautiful god gifted thing </h3>
+		    <p> Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Recusandae perspiciatis, odio sint? </p>
+		    <a href="#"> Explore </a>
+		</div>
+<ul class="social">
+<li> <a href="#"> <img src="fbc.png" alt="facebook logo"  width="50" height= "50" class="src"> </a> </li> 
+<li> <a href="#"> <img src="tw.png" alt="titter logo" width="50" height= "50" class="src"> </a> </li> 
+<li><a href="#"> <img src="insta.png" alt="instagram logo" width="50" height= "50"class="src"> </a> </li> 
+ </ul>
+</section>
+<div class="menu"> 
+<ul>
+	<li> <a href="#" class="href"> Home </a></li>
+	<li> <a href="#" class="href"> contact </a></li>
+	<li> <a href="#" class="href"> destination </a></li>
+	<li> <a href="#" class="href"> areaa </a></li>
+	<li> <a href="#" class="href"> Contact  </a></li>
+
+</ul>
+</div>
+<script>
+	 const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+
+</script>
+</body>
+</html>
+
